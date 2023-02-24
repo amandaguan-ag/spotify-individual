@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/scripts.js"></script>
     <title>Programming Language Selector</title>
   </head>
   <body>
+<div class="container-fluid">
 
+    <div class="header">
+      <h1>Programming Language Selector</h1>
+    </div>
+    <div class="questions">
+      <form id="languageForm">
+        <label for="difficulty">How difficult do you want the language to be?</label>
+        <select class="form-control" id="difficulty">
+          <option value="python">Easy</option>
+          <option value="javaScript">Medium</option>
+          <option value="cSharp">Hard</option>
+        </select>
+        <label for="what">What are you using this language for?</label>
+        <select class="form-control" id="what">
+          <option value="javaScript">Web/App Development</option>
+          <option value="cSharp">Game Development</option>
+          <option value="python">Data/Machine Learning</option>
+        </select>
+        <label for="why">Why are you learning to program?</label>
+        <select class="form-control" id="why">
+          <option value="javaScript">For fun</option>
+          <option value="cSharp">For a job</option>
+          <option value="python">For science</option>
+        </select>
+        <label for="frontOrBack">Do you want to do front end or back end development?</label>
+        <select class="form-control" id="frontOrBack">
+          <option value="javaScript">Front End</option>
+          <option value="cSharp">Back End</option>
+          <option value="python">I don't know</option>
+        </select>
+        <label for="fun">What type of language are you wanting to try?</label>
+        <select class="form-control" id="type">
+          <option value="cSharp">Whatever gives me the most control.</option>
+          <option value="python">Something trendy.</option>
+          <option value="javaScript">One that is easy to use.</option>
+        </select>
+        <div class="button">
+          <button class="submit">Tell me what language to learn!</button>
+        </div>
+      </form>
+    </div>
+  </div>
   </body>
 </html>
