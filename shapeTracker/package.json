@@ -9,6 +9,12 @@
     "lint": "eslint src/*.js",
     "test": "jest --coverage"
   },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -30,4 +36,3 @@
     "bootstrap": "^5.2.3"
   }
 }
-

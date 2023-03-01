@@ -25,10 +25,10 @@ Triangle.prototype.checkType = function () {
   }
 };
 
-Triangle.prototype.isBigTriangle = function () {
+Triangle.prototype.isBigTriangle = function(){
   const sum = this.side1 + this.side2 + this.side3;
-  /* istanbul ignore else */
-  if (sum > 10) {
-    return "big";
-  }
+    /* istanbul ignore else */ 
+  if(sum > 10){
+    return 'big';
+  } 
 };
