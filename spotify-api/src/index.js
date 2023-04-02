@@ -1,4 +1,7 @@
-import { getAccessToken } from "./apiRequest.js";
+import "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./css/styles.css";
+import { getAccessToken } from "./js/apiRequest.js";
 
 const guessInput = document.getElementById("guess-input");
 
